@@ -322,6 +322,7 @@ header {
   max-height: 50px;
   overflow-x: auto; /* Enable horizontal scroll */
   white-space: nowrap;
+  margin-bottom: 20px;
 }
 
 .genre-btns li {
