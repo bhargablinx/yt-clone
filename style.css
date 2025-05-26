@@ -240,6 +240,9 @@ header {
 /* SIDEBAR */
 .sidebar {
   flex: 1;
+  overflow: auto;
+  scrollbar-width: thin;
+  max-height: 90vh;
 }
 
 .page-btn {
@@ -295,6 +298,15 @@ header {
   height: auto;
   border-radius: 100%;
   margin-right: 15px;
+}
+
+.list-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  padding: 10px;
+  color: rgb(171, 171, 171);
 }
 
 /* VIDEO SECTION */
