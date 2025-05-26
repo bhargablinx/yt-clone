@@ -229,3 +229,75 @@ header {
   border: 1px solid #2c2c2c;
   cursor: pointer;
 }
+
+/* Main Section */
+
+.main-conatiner {
+  display: flex;
+  min-height: 90vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  flex: 1;
+}
+
+.page-btn {
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.page-btn:hover {
+  border: 1px solid #454545;
+  background-color: #272727;
+}
+
+.selected {
+  border: 1px solid #454545;
+  background-color: #272727;
+}
+
+.page-btn > i {
+  margin-right: 15px;
+}
+
+.sidebar > hr {
+  color: #454545;
+  margin: 0 5px;
+}
+
+.you-btn {
+  margin-bottom: 15px;
+}
+
+.you-btn > i {
+  margin-left: 5px;
+}
+
+.section-heading {
+  margin: 10px 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.yt-channel-small-container {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  transition: background-color 0.1s;
+}
+
+.yt-channel-small-container > img {
+  width: 25px;
+  height: auto;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+/* VIDEO SECTION */
+.video-section {
+  flex: 6;
+}
