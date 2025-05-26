@@ -312,4 +312,27 @@ header {
 /* VIDEO SECTION */
 .video-section {
   flex: 6;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.genre-btns {
+  display: flex;
+  gap: 15px;
+  max-height: 50px;
+  overflow-x: auto; /* Enable horizontal scroll */
+  white-space: nowrap;
+}
+
+.genre-btns li {
+  background-color: #2c2c2c;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#foo {
+  background-color: white;
+  color: #0f0f0f;
 }
