@@ -344,6 +344,8 @@ header {
   flex-wrap: wrap;
   gap: 40px;
   justify-content: space-between;
+  max-height: 75vh;
+  overflow: auto;
 }
 
 .card {
@@ -352,6 +354,7 @@ header {
   width: 350px;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .thumbnail {
