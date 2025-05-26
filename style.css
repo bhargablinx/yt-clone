@@ -339,7 +339,7 @@ header {
 
 /* VIDEO CARD */
 .video-card-container {
-  padding: 20px 10px;
+  padding: 20px 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
